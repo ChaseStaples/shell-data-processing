@@ -9,7 +9,7 @@ curl "http://shakespeare.mit.edu/hamlet/hamlet.5.2.html" > hamlet.txt
 touch a.txt b.txt c.txt
 ```
 
-mkdir - creates a new directory in the current directory
+ - mkdir - creates a new directory in the current directory
 ```Bash
 mkdir newDirectoryName
 ```
