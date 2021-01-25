@@ -15,6 +15,10 @@ mkdir newDirectoryName
 ```
 - tr - Transform contents of a file for output
 ```Bash
-tr 'begin' 'end' < input.txt | sort 
-tr '
+tr 'begin' 'end' < input.txt | sort
+tr ' ' '\12' < returnedfile | sort
+tr ' ' '\12' < returnedfile | sort | uniq -c
+tr ' ' '\12' < returnedfile | sort | uniq -c | sort -nr
+tr ' ' '\12' < returnedfile | sort | uniq -c | sort -nr > result.txt
+'''
 
